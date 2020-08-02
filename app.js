@@ -11,12 +11,12 @@ import globalRouter from "./routers/globalRouter";
 
 const app = express();
 
-app.use(helmet());
+app.use(helmet()); // Helmet helps you secure your Express apps by setting various HTTP headers.
 app.set("view engine", "pug");
-app.use(cookieParser());
-app.use(bodyParser.json());
+app.use(cookieParser()); // Parse Cookie header and populate req.cookies with an object keyed by the cookie names
+app.use(bodyParser.json()); // Parse incoming request bodies in a middleware before your handlers, available under the req.body property
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(morgan("dev"));
+app.use(morgan("dev")); // HTTP request logger middleware for node.js
 app.use(localsMiddleware);
 
 app.use(routes.home, globalRouter);
