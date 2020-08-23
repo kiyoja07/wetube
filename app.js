@@ -13,6 +13,7 @@ const app = express();
 
 app.use(helmet()); // Helmet helps you secure your Express apps by setting various HTTP headers.
 app.set("view engine", "pug");
+app.use("/uploads", express.static("uploads"));
 app.use(cookieParser()); // Parse Cookie header and populate req.cookies with an object keyed by the cookie names
 app.use(bodyParser.json()); // Parse incoming request bodies in a middleware before your handlers, available under the req.body property
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -24,6 +25,3 @@ app.use(routes.users, userRouter);
 app.use(routes.videos, videoRouter);
 
 export default app;
-
-
-

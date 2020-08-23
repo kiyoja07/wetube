@@ -154,3 +154,5 @@ dist
 
 package-lock.json
 .env
+uploads
+static
