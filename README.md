@@ -2,7 +2,6 @@
 
 Cloning Youtube with Vanilla and NodeJS
 
-
 ## Pages:
 
 - [ ] Home
@@ -22,3 +21,9 @@ Cloning Youtube with Vanilla and NodeJS
 - cookieParser
 - bodyParser
 - morgan
+
+# Note
+
+- Installing MongoDB on Mac : https://zellwk.com/blog/install-mongodb/
+- brew services start mongodb-community
+-
