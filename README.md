@@ -23,7 +23,8 @@ Cloning Youtube with Vanilla and NodeJS
 - morgan
 - passporrt : https://www.npmjs.com/package/passport
 
-# Note
+# MONGODB
 
+- MANUAL : https://docs.mongodb.com/manual/
 - Installing MongoDB on Mac : https://zellwk.com/blog/install-mongodb/
-- brew services start mongodb-community
+  - brew services start mongodb-community
