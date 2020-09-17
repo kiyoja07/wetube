@@ -29,6 +29,11 @@
         li:not(:last-child) {
           margin-right: 15px;
         }
+        li {
+          a:visited {
+            color: white;
+          }
+        }
       }
       form {
         width: 100%;
