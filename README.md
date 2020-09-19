@@ -26,6 +26,10 @@ Cloning Youtube with Vanilla and NodeJS
 
 # MONGODB
 
-- MANUAL : https://docs.mongodb.com/manual/
+- Manual : https://docs.mongodb.com/manual/
 - Installing MongoDB on Mac : https://zellwk.com/blog/install-mongodb/
   - brew services start mongodb-community
+
+# PUG
+
+- Manual : https://pugjs.org/api/getting-started.html
