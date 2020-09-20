@@ -18,14 +18,4 @@ module.exports = {
       },
     ],
   },
-  env: {
-    browser: true,
-  },
 };
-
-// module.exports = {
-//   extends: ["airbnb-base", "plugin:prettier/recommended"],
-//   rules: {
-//     "no-console": "off",
-//   },
-// };
